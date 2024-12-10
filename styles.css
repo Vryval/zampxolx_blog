@@ -1,0 +1,125 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffecb3;
+    color: #333;
+}
+
+header {
+    background-color: #e8e1b0;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #fffba2;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff2a2;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+#informacion h1 {
+    color: #333;
+}
+
+#productos {
+    background-color: #fff2a2;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+#productos .productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.producto {
+    text-align: center;
+    padding: 1em;
+    background-color: #fffba2;
+    border-radius: 8px;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#contacto form input,
+#contacto form textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contacto form button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #e8e1b0;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contacto form button:hover {
+    background-color: #fffba2;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #e8e1b0;
+    color: #333;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8dcc2; /* Beige oscuro */
+    color: #333;
+}
